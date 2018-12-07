@@ -1,5 +1,6 @@
 ---
 title: Joe Mancuso
+bio: Software Developer. Creator of @masoniteproject
 date: "2015-05-06T23:46:37.121Z"
 description: This is a description
 ---

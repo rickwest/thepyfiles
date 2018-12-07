@@ -24,13 +24,14 @@ class Bio extends React.Component {
             marginBottom: 0,
             width: rhythm(2),
             height: rhythm(2),
+            borderRadius: '50%',
           }}
         />
         <p>
-          Written by <strong>Kyle Mathews</strong> who lives and works in San
+          Interview by <strong>Rick West</strong> who lives and works in San
           Francisco building useful things.{' '}
-          <a href="https://twitter.com/kylemathews">
-            You should follow him on Twitter
+          <a href="https://twitter.com/rick_west8">
+            You should follow me on Twitter
           </a>
         </p>
       </div>
