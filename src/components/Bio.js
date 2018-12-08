@@ -9,33 +9,58 @@ import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
   render() {
-    return (
-      <div
-        style={{
-          display: 'flex',
-          marginBottom: rhythm(2.5),
-        }}
-      >
-        <img
-          src={profilePic}
-          alt={`Kyle Mathews`}
+    let { pic, name, bio, twitter } = this.props
+    if (pic && name && bio) {
+      return (
+        <div
           style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
-            borderRadius: '50%',
+            display: 'flex',
+            marginBottom: rhythm(2.5),
           }}
-        />
-        <p>
-          Interview by <strong>Rick West</strong> who lives and works in San
-          Francisco building useful things.{' '}
-          <a href="https://twitter.com/rick_west8">
-            You should follow me on Twitter
-          </a>
-        </p>
-      </div>
-    )
+        >
+          <img
+            src={pic}
+            alt={name}
+            style={{
+              marginRight: rhythm(1 / 2),
+              marginBottom: 0,
+              width: rhythm(2),
+              height: rhythm(2),
+              borderRadius: '50%',
+            }}
+          />
+          <p>{bio} {twitter ? <a href={'https://twitter.com/@'+ twitter}>@{twitter}</a> : null }</p>
+        </div>
+      )
+    } else {
+      return (
+        <div
+          style={{
+            display: 'flex',
+            marginBottom: rhythm(2.5),
+          }}
+        >
+          <img
+            src={profilePic}
+            alt={`Rick West`}
+            style={{
+              marginRight: rhythm(1 / 2),
+              marginBottom: 0,
+              width: rhythm(2),
+              height: rhythm(2),
+              borderRadius: '50%',
+            }}
+          />
+          <p>
+            Interview by <strong>Rick West</strong> who lives and works in San
+            Francisco building useful things.{' '}
+            <a href="https://twitter.com/rick_west8">
+              You should follow me on Twitter
+            </a>
+          </p>
+        </div>
+      )
+    }
   }
 }
 

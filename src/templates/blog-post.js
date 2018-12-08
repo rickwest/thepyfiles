@@ -51,7 +51,12 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
           {` • ${formatReadingTime(post.timeToRead)}`}
         </p>
-        <Bio />
+        <Bio
+          pic={post.frontmatter.pic.childImageSharp.resize.src}
+          name={post.frontmatter.title}
+          bio={post.frontmatter.bio}
+          twitter={post.frontmatter.twitter}
+        />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
@@ -121,6 +126,14 @@ export const pageQuery = graphql`
       frontmatter {
         title
         bio
+        pic {
+          childImageSharp {
+            resize(width: 100) {
+              src
+            }
+          }
+        }
+        twitter
         date(formatString: "MMMM DD, YYYY")
       }
     }
