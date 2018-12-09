@@ -8,6 +8,10 @@ Wordpress2016.overrideThemeStyles = () => ({
   a: {
     color: '#3775A9',
   },
+  hr: {
+    marginBottom: typography.rhythm(1),
+    marginTop: typography.rhythm(1),
+  }
 })
 
 delete Wordpress2016.googleFonts
