@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+// Import typefaces
+import 'typeface-montserrat'
+import 'typeface-merriweather'
+
 import { rhythm } from '../utils/typography'
 
 import thePyFilesLogo from './the-py-files.png'
