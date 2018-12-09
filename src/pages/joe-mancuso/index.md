@@ -1,7 +1,7 @@
 ---
 title: Joe Mancuso
 bio: Software Developer. Creator of the Masonite project. Busy guy!
-date: "2015-05-06T23:46:37.121Z"
+date: "2018-12-10"
 description: This is a description
 pic: ./profile.jpg
 twitter: JoeMancusoDev

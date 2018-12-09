@@ -5,6 +5,7 @@ import { rhythm } from '../utils/typography'
 
 import thePyFilesLogo from './the-py-files.png'
 import Footer from './Footer'
+import Newsletter from './Newsletter'
 
 class Layout extends React.Component {
   render() {
@@ -41,7 +42,7 @@ class Layout extends React.Component {
           }}
           to={'/'}
         >
-          <img src={thePyFilesLogo} alt="The Py Files logo" style={{ height: '75px' }} />
+          <img src={thePyFilesLogo} alt="The Py Files logo" style={{ height: '75px', marginBottom: 0 }} />
         </Link>
       )
     }
@@ -56,6 +57,7 @@ class Layout extends React.Component {
       >
         {header}
         {children}
+        <Newsletter />
         <Footer />
       </div>
     )

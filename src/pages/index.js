@@ -39,7 +39,6 @@ class BlogIndex extends React.Component {
           )
         })}
         <hr />
-        <Newsletter />
       </Layout>
     )
   }

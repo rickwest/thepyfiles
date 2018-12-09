@@ -19,17 +19,17 @@ class BlogPostTemplate extends React.Component {
     const timeToRead = readingTime(post.html)
 
     const shareBlockProps = {
-      url: this.props.location,
+      url: this.props.location.href,
       button: ShareButtonCircle,
       buttons: [
         { network: "Twitter", icon: FaTwitter },
         { network: "Facebook", icon: FaFacebook },
         { network: "GooglePlus", icon: FaGooglePlus },
+        { network: "Linkedin", icon: FaLinkedin },
         { network: "Email", icon: FaEnvelope },
-        { network: "Linkedin", icon: FaLinkedin }
       ],
-      text: `Give it a try - mywebsite.com `,
-      longtext: `Take a look at this super website I have just found.`
+      text: `An interview with ${post.frontmatter.title} - ${siteTitle}`,
+      longtext: `An interview with ${post.frontmatter.title} - ${post.frontmatter.bio} - ${siteTitle}`
     };
 
     return (
@@ -58,25 +58,16 @@ class BlogPostTemplate extends React.Component {
           twitter={post.frontmatter.twitter}
         />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <hr />
         <div style={{
           marginBottom: rhythm(1),
           textAlign: 'center',
         }}>
-          Enjoyed this interview? Spread the love...
+          Enjoyed this interview? <strong>Share</strong> the love...
           <ShareBlockStandard {...shareBlockProps} />
         </div>
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <hr />
         <Bio />
-
         <ul
           style={{
             display: 'flex',

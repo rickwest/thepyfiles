@@ -52,11 +52,10 @@ class Bio extends React.Component {
             }}
           />
           <p>
-            Interview by <strong>Rick West</strong> who lives and works in San
-            Francisco building useful things.{' '}
+            Interview by <strong>Rick West</strong>, a web developer and software engineering student from Sheffield, UK.{' '}
             <a href="https://twitter.com/rick_west8">
               You should follow me on Twitter
-            </a>
+            </a> 🙂
           </p>
         </div>
       )
