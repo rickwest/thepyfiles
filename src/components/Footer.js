@@ -13,11 +13,6 @@ class Footer extends React.Component {
           paddingTop: rhythm(1),
         }}
       >
-        <Link to={'/about'}>about</Link> &bull;{' '}
-        <a
-          href="mailto:thepyfiles@gmail.com"
-        > contact
-        </a> &bull;{' '}
         <a
           href="https://twitter.com/thepyfiles"
           target="_blank"
@@ -31,6 +26,10 @@ class Footer extends React.Component {
           rel="noopener noreferrer"
         >
           medium
+        </a> &bull;{' '}
+        <a
+          href="mailto:thepyfiles@gmail.com"
+        > contact
         </a>
       </footer>
     )

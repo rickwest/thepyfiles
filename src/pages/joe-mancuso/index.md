@@ -1,6 +1,6 @@
 ---
 title: Joe Mancuso
-bio: Software Developer. Creator of the Masonite project. Busy guy!
+bio: Software Developer. Creator of the Masonite project. All-round busy guy!
 date: "2018-12-10"
 description: This is a description
 pic: ./profile.jpg
