@@ -7,7 +7,7 @@ import 'typeface-merriweather'
 
 import { rhythm } from '../utils/typography'
 
-import thePyFilesLogo from './the-py-files.png'
+import thePyFilesLogo from '../assets/the-py-files.png'
 import Footer from './Footer'
 import Newsletter from './Newsletter'
 
