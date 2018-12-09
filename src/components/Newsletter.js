@@ -21,7 +21,8 @@ class Newsletter extends React.Component {
         <input type="submit" value="Subscribe" style={{
           width: '100%',
           backgroundColor: '#3775A9',
-          color: '#fff'
+          color: '#fff',
+          cursor: 'pointer',
         }} />
       </form>
     )
