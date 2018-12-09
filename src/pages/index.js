@@ -2,6 +2,11 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
+
+// Import typefaces
+import 'typeface-montserrat'
+import 'typeface-merriweather'
+
 import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
 
