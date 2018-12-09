@@ -29,7 +29,7 @@ class Bio extends React.Component {
               borderRadius: '50%',
             }}
           />
-          <p>{bio} {twitter ? <a href={'https://twitter.com/@'+ twitter}>@{twitter}</a> : null }</p>
+          <p>{bio} {twitter ? <a href={`https://twitter.com/${twitter}`}>@{twitter}</a> : null }</p>
         </div>
       )
     } else {
