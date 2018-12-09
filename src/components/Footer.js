@@ -30,7 +30,8 @@ class Footer extends React.Component {
         <a
           href="mailto:thepyfiles@gmail.com"
         > contact
-        </a>
+        </a> &bull;{' '}
+        <Link to={'/rss.xml'}>rss</Link>
       </footer>
     )
   }
