@@ -2,10 +2,9 @@ module.exports = {
   siteMetadata: {
     title: 'The Py Files',
     author: 'Rick West',
-    description: 'A starter blog demonstrating what Gatsby can do.',
+    description: 'A series of interviews with some of the awesome members of the Python community 🐍. Let\'s get to know the people behind the packages! 🙂',
     siteUrl: 'https://thepyfiles.com',
   },
-  pathPrefix: '/gatsby-starter-blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -64,6 +63,12 @@ module.exports = {
       options: {
         pathToConfigModule: 'src/utils/typography',
       },
+    },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: "./src/assets/the-py-files-square.png",
+      }
     },
   ],
 }
