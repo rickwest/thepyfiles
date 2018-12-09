@@ -1,14 +1,15 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "name": "the-py-files",
+  "description": "The Py Files",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Rick West <rickwestdev@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+    "url": "https://github.com/rickwest/thepyfiles/issues"
   },
   "dependencies": {
     "emotion": "^10.0.4",
     "gatsby": "^2.0.19",
+    "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.5",
     "gatsby-plugin-manifest": "^2.0.5",
@@ -43,15 +44,12 @@
     "gh-pages": "^1.2.0",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
+  "homepage": "https://thepyfiles.com",
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/rickwest/thepyfiles.git"
   },
   "scripts": {
     "dev": "gatsby develop",
