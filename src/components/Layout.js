@@ -25,7 +25,7 @@ class Layout extends React.Component {
           >
             <p>
               <strong>
-                A series of interviews with some of the awesome members of the Python community 🐍. Let's get to know the people behind the packages! 🙂
+                A series of interviews with some awesome members of the Python community 🐍. Let's get to know the people behind the packages! 🙂
               </strong>
             </p>
           </div>
