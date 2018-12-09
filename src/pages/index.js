@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
+import Newsletter from '../components/Newsletter'
 
 class BlogIndex extends React.Component {
   render() {
@@ -37,6 +38,8 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
+        <hr />
+        <Newsletter />
       </Layout>
     )
   }
