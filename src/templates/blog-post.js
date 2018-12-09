@@ -5,9 +5,8 @@ import readingTime from 'reading-time'
 
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
+import Share from '../components/Share'
 import { rhythm, scale } from '../utils/typography'
-import { ShareButtonCircle, ShareBlockStandard } from 'react-custom-share'
-import { FaEnvelope, FaFacebook, FaGooglePlus, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { formatReadingTime } from '../utils/helpers'
 
 class BlogPostTemplate extends React.Component {
@@ -18,18 +17,9 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
     const timeToRead = readingTime(post.html)
 
-    const shareBlockProps = {
+    const shareProps = {
       url: this.props.location.href,
-      button: ShareButtonCircle,
-      buttons: [
-        { network: "Twitter", icon: FaTwitter },
-        { network: "Facebook", icon: FaFacebook },
-        { network: "GooglePlus", icon: FaGooglePlus },
-        { network: "Linkedin", icon: FaLinkedin },
-        { network: "Email", icon: FaEnvelope },
-      ],
-      text: `An interview with ${post.frontmatter.title} - ${siteTitle}`,
-      longtext: `An interview with ${post.frontmatter.title} - ${post.frontmatter.bio} - ${siteTitle}`
+      title: post.frontmatter.title,
     };
 
     return (
@@ -64,7 +54,7 @@ class BlogPostTemplate extends React.Component {
           textAlign: 'center',
         }}>
           Enjoyed this interview? <strong>Share</strong> the love...
-          <ShareBlockStandard {...shareBlockProps} />
+          <Share {...shareProps} />
         </div>
         <hr />
         <Bio />
