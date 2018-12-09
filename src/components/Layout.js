@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import { rhythm } from '../utils/typography'
 
 import thePyFilesLogo from './the-py-files.png'
+import Footer from './Footer'
 
 class Layout extends React.Component {
   render() {
@@ -55,6 +56,7 @@ class Layout extends React.Component {
       >
         {header}
         {children}
+        <Footer />
       </div>
     )
   }
