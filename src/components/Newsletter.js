@@ -10,7 +10,7 @@ class Newsletter extends React.Component {
         action="https://tinyletter.com/thepyfiles"
         method="post"
         target="popupwindow"
-        onSubmit="window.open('https://tinyletter.com/thepyfiles', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+        onSubmit={Newsletter.onSubmit()}
       >
         <h4>Stay in touch!</h4>
         <p>
@@ -26,6 +26,9 @@ class Newsletter extends React.Component {
         }} />
       </form>
     )
+  }
+  static onSubmit() {
+      window.open('https://tinyletter.com/thepyfiles', 'popupwindow', 'scrollbars=yes,width=800,height=600');
   }
 }
 
