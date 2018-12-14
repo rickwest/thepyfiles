@@ -41,7 +41,9 @@ Sometimes I also use Python IDEs, specially because they have nice interactive d
 
 ### Do you have any hobbies outside the computer?
 
-Yes. I play Ukulele and Mandolin. I have a few of instruments within reach of my desk, actually. Whenever I need to take a break, or if I need to wait for a build to finish I play a tune or two! I also have an interest in photography, filmmaking and animation. I’m very proud of the little video I did of the 2017 solar eclipse, assembled from about 350 pictures I took with my DSLR. It was specially challenging to have to change the camera setup completely between the partial and total phases of the eclipse, while at the same time trying to also enjoy the eclipse with my own eyes! The video that I made can be seen here: https://www.youtube.com/watch?v=2-PJSc_OsQo.
+Yes. I play Ukulele and Mandolin. I have a few of instruments within reach of my desk, actually. Whenever I need to take a break, or if I need to wait for a build to finish I play a tune or two! I also have an interest in photography, filmmaking and animation. I’m very proud of the little video I did of the 2017 solar eclipse, assembled from about 350 pictures I took with my DSLR. It was specially challenging to have to change the camera setup completely between the partial and total phases of the eclipse, while at the same time trying to also enjoy the eclipse with my own eyes!
+
+`youtube:https://www.youtube.com/embed/2-PJSc_OsQo`
 
 ### If the internet didn't exist, what do you think that you would be doing as a full time job?
 
