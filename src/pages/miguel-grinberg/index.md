@@ -1,7 +1,7 @@
 ---
 title: Miguel Grinberg
 bio: Software Developer, author, blogger, speaker, teacher, photographer. Flask aficionado. Creator of the Flask Mega-tutorial.
-date: "2018-12-16"
+date: "2018-12-23"
 description: This is a description
 pic: ./profile-pic.jpg
 twitter: miguelgrinberg
