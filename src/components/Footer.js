@@ -14,7 +14,7 @@ class Footer extends React.Component {
         }}
       >
         <a
-          href="https://twitter.com/thepyfiles"
+          href="https://twitter.com/rick_west8"
           target="_blank"
           rel="noopener noreferrer"
         >
