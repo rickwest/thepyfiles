@@ -19,7 +19,7 @@ const Seo = ({ frontmatter, url }) => (
     `}
     render={({ site: { siteMetadata } }) => {
       const siteTitle = siteMetadata.title
-      const logoUrl = `${siteMetadata.siteUrl}/${logo}`
+      const logoUrl = `${siteMetadata.siteUrl}${logo}`
 
       return (
         <Helmet>
