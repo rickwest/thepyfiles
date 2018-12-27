@@ -1,13 +1,15 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import readingTime from 'reading-time'
 
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import Share from '../components/Share'
+import Seo from '../components/Seo';
+
 import { rhythm, scale } from '../utils/typography'
 import { formatReadingTime } from '../utils/helpers'
+
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -15,19 +17,16 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
     const timeToRead = readingTime(post.html)
+    const location = this.props.location
 
     const shareProps = {
-      url: this.props.location.href,
+      url: location.href,
       title: post.frontmatter.title,
     };
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <Helmet
-          htmlAttributes={{ lang: 'en' }}
-          meta={[{ name: 'description', content: `${post.frontmatter.title} - ${post.frontmatter.bio}` }]}
-          title={`${post.frontmatter.title} | ${siteTitle}`}
-        />
+      <Layout location={location} title={siteTitle}>
+        <Seo frontmatter={post.frontmatter} location={location} />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
