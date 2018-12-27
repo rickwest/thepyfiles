@@ -19,6 +19,7 @@ const Seo = ({ frontmatter, url }) => (
     `}
     render={({ site: { siteMetadata } }) => {
       const siteTitle = siteMetadata.title
+      const logoUrl = `${siteMetadata.siteUrl}/${logo}`
 
       return (
         <Helmet>
@@ -31,7 +32,7 @@ const Seo = ({ frontmatter, url }) => (
               frontmatter.bio
             }`}
           />
-          <meta name="image" content={logo} />
+          <meta name="image" content={logoUrl} />
           {/* Schema.org for Google */}
           <meta
             itemProp="name"
@@ -43,7 +44,7 @@ const Seo = ({ frontmatter, url }) => (
               frontmatter.bio
             }`}
           />
-          <meta itemProp="image" content={logo} />
+          <meta itemProp="image" content={logoUrl} />
           {/* Twitter */}
           <meta name="twitter:card" content="summary" />
           <meta
@@ -66,7 +67,7 @@ const Seo = ({ frontmatter, url }) => (
               frontmatter.bio
             }`}
           />
-          <meta name="og:image" content={logo} />
+          <meta name="og:image" content={logoUrl} />
           <meta name="og:url" content={url} />
           <meta name="og:site_name" content="The Py Files" />
           <meta name="og:locale" content="en_GB" />
