@@ -10,7 +10,7 @@ You will need [yarn](https://yarnpkg.com) installed to run this project.
 
 You also need the Gatsby CLI tool.
 
-```yarn add --global gatsby-cli```
+```yarn global add gatsby-cli```
 
 
 ## Installing and running
