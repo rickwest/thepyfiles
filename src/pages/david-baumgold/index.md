@@ -95,6 +95,6 @@ The power to read minds and communicate with anyone, regardless of language. Pro
 
 ### Is there anything else you would like to say? Do you have any recommendations for someone who is learning or considering a career in web development? Where should they start?
 
-I’ve heard many stories of “whizz-kids” who were playing around with computers starting from age 4 and who have been programming all through childhood. I didn’t know I was interested in programming until college, when I took it as an elective class because I was curious. I know many people who started later than that. You don’t have to be a “whiz-kid” to be a competent programmer, you just have to want to learn 😊.
+I’ve heard many stories of “whizz-kids” who were playing around with computers starting from age 4 and who have been programming all through childhood. I didn’t know I was interested in programming until college, when I took it as an elective class because I was curious. I know many people who started later than that. You don’t have to be a “whizz-kid” to be a competent programmer, you just have to want to learn 😊.
 
 If you’re interested in Python, specifically, I highly recommend the book [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/), by Al Sweigart. It’s a great introduction, and it’s free to read on the web.
