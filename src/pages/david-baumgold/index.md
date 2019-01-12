@@ -23,13 +23,13 @@ I learned Java in college, and picked up PHP on the side to build websites. Anot
 
 Open source helped me learn a lot more advanced Python techniques and, as I became more experienced, I realized that I could write libraries and contribute to open source, as well. My most successful open source project so far is called [Flask-Dance](https://github.com/singingwolfboy/flask-dance), which is a library for doing OAuth with the [Flask](http://flask.pocoo.org/) web framework. I wrote it because I tried several other libraries for OAuth in Flask, and realized that all of them were overcomplicated, so I decided to write something simpler. It’s a small niche, but I’m happy to report that others seem to like my work too, and I know for a fact that my little library is running in production for several different companies.
 
-### When I reached out to you, you mentioned that you don't do much Python anymore and are predominantly doing Javascript now. Can you tell mw a bit more about that and the reason for the change?
+### When I reached out to you, you mentioned that you don't do much Python anymore and are predominantly doing JavaScript now. Can you tell me a bit more about that and the reason for the change?
 
 When I moved to Amsterdam, I was hired as a senior frontend developer for a company called Impraise, which runs Ruby on Rails for the backend. There was no Python to be found anywhere in the company, so I was writing JavaScript all day, every day. And you know what? JS is a fascinating language, deeply flawed but impressively powerful. It’s growing incredibly quickly and new libraries, frameworks, and best practices are being developed every week - which is both a blessing and a curse.
 
 I admit it - I love JavaScript. I love Python too. However, I’ve been doing Python for so many years that I feel like I’ve already learned most of what I want to know about Python. JavaScript is a whole new world to explore, a world that is evolving and shifting at a frighteningly fast pace. JS is also in higher demand than Python right now, especially for developers who know the React ecosystem. So even though I’m quite happy to wrangle some Python, I’m more focused on JS these days.
 
-### Following on from that, how do Python and Javascript compare? What are you enjoying? What are you hating?
+### Following on from that, how do Python and JavaScript compare? What are you enjoying? What are you hating?
 
 I like to anthropomorphize software. Python is a stately, graceful young woman who probably wears librarian glasses and sips tea. She knows what she wants, and she knows how to get it. Her younger sister Ruby is always “reinventing” herself and pursuing a different romantic partner every couple of months; Python went through that phase, and no longer wants to get all tied up in knots the way Ruby does. Python will occasionally have a wild night, but she generally prefers her evenings to be simple and quiet. Python is a woman who radiates a calm, quiet power, one of those people that you instinctively know that you do not want to cross.
 
